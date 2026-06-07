@@ -1,0 +1,27 @@
+# 1. 대용량 데이터 파일 무시
+*.csv
+*.parquet
+*.json
+*.xlsx
+
+# sample이 들어간 파일은 업로드 허용
+!*sample*.csv
+
+# 2. 파이썬 캐시 및 가상환경 관련 파일
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# 3. OS 및 에디터 시스템 파일
+.DS_Store
+.vscode/
+.idea/
+
+# 4. 로그 및 임시 파일
+*.log
+logs/
+/tmp
